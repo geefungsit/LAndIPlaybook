@@ -2,7 +2,7 @@
 We start counting at 0.
 
 ## Step 0 - IDE
-Go to https://jsbin.com/?js,console
+Go to [https://jsbin.com/?js,console](https://jsbin.com/?js,console)
 
 ## Step 1 - Hello
 You can see your console on the right. We can output results from our computations there.
