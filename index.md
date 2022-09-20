@@ -35,6 +35,13 @@ function greet(addressee) {
 greet("world")
 ```
 
+Visually:
+```
+ ┌───────────┐    ┌───────┐    ┌────────────────────────┐
+ │ addressee ├───►│ greet ├───►│ Output in your console │
+ └───────────┘    └───────┘    └────────────────────────┘
+```
+
 ## Step 3 - Additional parameters
 Let's make it even more generic
 
@@ -46,13 +53,6 @@ function greet(greeting, addressee) {
 }
 
 greet("Hello", "world")
-```
-
-Visually:
-```
- ┌───────────┐    ┌───────┐    ┌────────────────────────┐
- │ addressee ├───►│ greet ├───►│ Output in your console │
- └───────────┘    └───────┘    └────────────────────────┘
 ```
 
 *Task:* Say "Hello", then say "Good morning"
