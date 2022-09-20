@@ -54,6 +54,16 @@ function greet(greeting, addressee) {
 
 greet("Hello", "world")
 ```
+Visually:
+```
+  ┌──────────┐
+  │ greeting ├──┐
+  └──────────┘  │    ┌───────┐    ┌────────────────────────┐
+                ├───►│ greet ├───►│ Output in your console │
+ ┌───────────┐  │    └───────┘    └────────────────────────┘
+ │ addressee ├──┘
+ └───────────┘
+ ```
 
 *Task:* Say "Hello", then say "Good morning"
 
