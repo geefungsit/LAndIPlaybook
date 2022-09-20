@@ -65,7 +65,7 @@ Visually:
  └───────────┘
  ```
 
-*Task:* Say "Hello", then say "Good morning"
+*Task:* Say "Good morning", then say "Hello", then say "Good evening"
 
 ## Step 4 - Constants
 One principle of software engineering is DRY (do not repeat yourself).
@@ -78,8 +78,9 @@ function greet(greeting, addressee) {
 
 const ADDRESSEE = "world"
 
-greet("Hello", ADDRESSEE)
 greet("Good morning", ADDRESSEE)
+greet("Hello", ADDRESSEE)
+greet("Good evening", ADDRESSEE)
 ```
 
 *Task:* What is the advantage of doing so?
@@ -96,6 +97,7 @@ function greet(greeting, addressee) {
 
 const ADDRESSEE = "world"
 
+// Let's pretend it is 9 am 
 const HOUR = 9
 
 if(HOUR < 12) {
@@ -105,7 +107,7 @@ if(HOUR < 12) {
 }
 ```
 
-*Task:* Say "Good evening" instead at after 18 o' Clock
+*Task:* Say "Good evening" instead at after 6 pm (18:00)
 
 ## Step 6 - Lists
 Automation relies on doing the same thing over and over.
