@@ -10,6 +10,18 @@ You can see your console on the right. We can output results from our computatio
 ```js
 console.log("Hello world!")
 ```
+The way it works:
+```
+ ┌───────┐     ┌──────────┐     ┌───────────────┐
+ │ input ├────►│ function ├────►│ output/effect │
+ └───────┘     └──────────┘     └───────────────┘
+```
+In our case:
+```
+ ┌───────────────┐    ┌─────────────┐    ┌────────────────────────┐
+ │ "Hello World" ├───►│ console.log ├───►│ Output in your console │
+ └───────────────┘    └─────────────┘    └────────────────────────┘
+```
 
 ## Step 2 - Defining a function
 As you saw in the presentation/demo we can make this more generic
@@ -34,6 +46,13 @@ function greet(greeting, addressee) {
 }
 
 greet("Hello", "world")
+```
+
+Visually:
+```
+ ┌───────────┐    ┌───────┐    ┌────────────────────────┐
+ │ addressee ├───►│ greet ├───►│ Output in your console │
+ └───────────┘    └───────┘    └────────────────────────┘
 ```
 
 *Task:* Say "Hello", then say "Good morning"
