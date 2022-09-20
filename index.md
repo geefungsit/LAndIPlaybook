@@ -82,6 +82,12 @@ greet("Good morning", ADDRESSEE)
 greet("Hello", ADDRESSEE)
 greet("Good evening", ADDRESSEE)
 ```
+Visually:
+```
+              ┌─────────┐
+ ADDRESSEE───►│ "World" │
+              └─────────┘
+```
 
 *Task:* What is the advantage of doing so?
 
@@ -136,6 +142,15 @@ const PEOPLE = ["person1", "person2", "person3"]
 console.log(PEOPLE[0])
 console.log(PEOPLE[1])
 console.log(PEOPLE[2])
+```
+In the computer memory:
+```
+ ┌────────┬─────┬─────┐
+ │ Zlatko │ Tim │ Gee │
+ └────────┴─────┴─────┘
+   ▲        ▲     ▲
+   │        │     │
+   0        1     2
 ```
 
 ## Step 7 - Loop
